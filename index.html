@@ -19,14 +19,16 @@
 
             
             <div id="visor">
-                <!-- <input type="text" name="ipt-visor" id="ipt-visor"> -->
-                <select name="slc-visor" id="slc-visor" size="2">
+                <input type="text" name="ipt-visor" id="ipt-visor">
+                <!-- <select name="slc-visor" id="slc-visor" size="2"> -->
                     
                 </select>
             </div>
             
             <div id="numeros">
-                <input type="button" value="1" class="btnNum">
+                <input type="button" value="C" class="btnNum" onclick="clear()">
+
+                <input type="button" value="1" class="btnNum" onclick="inputToSelect()">
                 <input type="button" value="2" class="btnNum">
                 <input type="button" value="3" class="btnNum">
                 <input type="button" value="4" class="btnNum">
@@ -36,17 +38,19 @@
                 <input type="button" value="8" class="btnNum">
                 <input type="button" value="9" class="btnNum">
                 <input type="button" value="0" class="btnNum">
+                
+                <input type="button" value="+" class="btnNum">
+                <input type="button" value="-" class="btnNum">
+                <input type="button" value="/" class="btnNum">
+                <input type="button" value="*" class="btnNum">
+                <input type="button" value="=" class="btnNum">
             </div>
-            <div id="operacao">
-                <input type="button" value="+" class="btnOpe">
-                <input type="button" value="-" class="btnOpe">
-                <input type="button" value="/" class="btnOpe">
-                <input type="button" value="*" class="btnOpe">
-                <input type="button" value="=" class="btnOpe">
-            </div>
+         
             
         </section>
     </main>
+
+    <script src="calculadoraEstilosa.js"></script>
 </body>
 
 </html>
